@@ -43,7 +43,7 @@
 <div id="main">
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <p style="color:white; font-size: 20px; display: none" id="formtitle">Enter Username and Password</p>
+    <p style="color:white; font-size: 20px; display: none" id="formtitle">Введите имя пользователя и пароль</p>
     <div style="color:white">
     <form method="post" style="display:none" id="form">
         {% csrf_token %}
@@ -56,7 +56,7 @@
 <div class="w3-top">
     <div class="w3-bar w3-red w3-card w3-left-align w3-large" id="topbar">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">CLOUD 9</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">CLOUD S</a>
         <a href="{% url 'upload_file' %}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Upload</a>
         <a href="#" class="w3-bar-item w3-button w3-padding-large">Linux Client</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Settings</a>
@@ -76,9 +76,9 @@
 &nbsp;
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:20px 16px; width: 100%">
-    <h1 class="w3-margin w3-jumbo">Welcome to CLOUD 9</h1>
+    <h1 class="w3-margin w3-jumbo">Добро пожаловать в CLOUD S</h1>
     <div>
-            <p class="w3-xlarge">Your safety is our concern</p>
+            <p class="w3-xlarge">Ваша безопасность – наша забота</p>
     </div>
     <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-hover-white" href="{% url 'signup' %}">Signup</a>
 </header>
@@ -87,14 +87,14 @@
 <div class="w3-row-padding w3-padding-64 w3-container" style="width:100%">
     <div class="w3-content">
     <div class="w3-twothird">
-        <h1>Access files from any device<br/> Keep your files safe
+        <h1>Доступ к файлам с любого устройства<br/> Держите ваши файлы в безопасности
             </h1>
-        <h3 class="w3-padding-32 w3-text-grey">Save your files and photos on Cloud9 <br/> and get them from any device, anywhere</h3>
-        <p class="w3-text-grey" style="font-size: 18px">Use your phone, tablet, or computer to continue what you started — wherever you happen to be. Any changes you make will be updated on all your devices</p>
+        <h3 class="w3-padding-32 w3-text-grey">Сохраняйте свои файлы и фотографии в Cloud S. <br/> и получайте их с любого устройства и в любом месте</h3>
+        <p class="w3-text-grey" style="font-size: 18px">Используйте свой телефон, планшет или компьютер, чтобы продолжить начатое, где бы вы ни находились. Любые внесенные вами изменения будут обновлены на всех ваших устройствах.</p>
         <p class="w3-text-grey" style="font-size: 18px">
-        You can Choose choose how your files are encrypted.<br/>
-      The files in the cloud are all encrypted so you don't have to worry about your data being stolen.<br/>
-      You can download your files by using the key. the files will be decrypted in your browser.</p>
+          Вы можете выбрать способ шифрования ваших файлов.<br/>
+          Все файлы в облаке зашифрованы, поэтому вам не придется беспокоиться о краже ваших данных.<br/>
+          Вы можете скачать файлы с помощью ключа. Файлы будут расшифрованы в вашем браузере.</p>
     </div>
 
     <div class="w3-third w3-center">
@@ -111,16 +111,16 @@
       </div>
   
       <div class="w3-twothird">
-        <h1>Upload files through Linux client <br/>and sync your directories</h3>
-        <h3 class="w3-padding-32 w3-text-grey">Download our linux client to Upload files and manage them from your pc.</h5>  
-        <p class="w3-text-grey" style="font-size: 18px">With the Linux client, you get  handy command line tool to access your files.<br/>You can choose to periodically sync your directories to the cloud.</p>
-        <p class="w3-text-grey" style="font-size: 18px">If something happens to your device, you don't have to worry about losing your files or photos – they're in your Cloud9.</p>
+        <h1>Загрузка файлов через клиент Linux <br/>и синхронизируйте свои каталоги</h3>
+        <h3 class="w3-padding-32 w3-text-grey">Загрузите наш клиент для Linux, чтобы загружать файлы и управлять ими со своего компьютера.</h5>  
+        <p class="w3-text-grey" style="font-size: 18px">С клиентом Linux вы получаете удобный инструмент командной строки для доступа к вашим файлам.<br/>Вы можете периодически синхронизировать свои каталоги с облаком.</p>
+        <p class="w3-text-grey" style="font-size: 18px">Если что-то случится с вашим устройством, вам не придется беспокоиться о потере файлов или фотографий — они находятся в вашем Cloud S.</p>
       </div>
     </div>
   </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">"Privacy - like eating and breathing - <b>is one of Life's basic requirements</b>"<span style="text-align: right; font-size: 16px; float:right"><i>-Katherine Neville</i></span></h1>
+    <h1 class="w3-margin w3-xlarge">"Конфиденциальность - как есть и дышать - <b>одно из основных требований жизни</b>"<span style="text-align: right; font-size: 16px; float:right"><i>-Katherine Neville</i></span></h1>
 </div>
 
 <!-- Footer -->
